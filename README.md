@@ -1,57 +1,66 @@
-# Advanced Aerial Threat Detection
+# A.A.T.D — Advanced Aerial Threat Detection
 
-A high-performance desktop application for aerial image and video analysis, built with Python, CustomTkinter, OpenCV, and Hugging Face transformers.
+A fast desktop tool for aerial image and video threat detection, built with Python and a clean modern UI.
 
-## Overview
+## What this project does
 
-This project is designed to detect aerial threats in images, video, and live camera feeds. It includes:
+- Detects aerial threats in images, videos, and live camera feed
+- Uses zero-shot object detection to find missiles, drones, rockets, fighter jets, fireballs, and more
+- Records alerts with location-style metadata and confidence scores
+- Exports reports and processed media
+- Supports a photo gallery UI for your own screenshots and images
 
-- Zero-shot object detection for missiles, rockets, drones, fighter jets, fireballs, and more
-- Real-time alert reporting with actionable metadata
-- Exportable reports and processed media
-- A clean UI with tabs for analysis, alerts, gallery, and settings
+## Why this repo is here
 
-## UI Showcase
+This repo is set up to showcase your app and give users a clean entry point when they land on GitHub.
+It includes:
 
-Below you can place screenshots from your app UI after you export the project to GitHub:
+- `README.md` with project description and UI screenshot placeholders
+- `LICENSE` under MIT terms
+- `.gitignore` for Python and local workspace files
 
-### Home / Analysis
+## Recommended screenshots
+
+Add your app screenshots to these paths and update the links if needed:
+
+- `docs/screenshots/home.png` — main detection screen
+- `docs/screenshots/alerts.png` — alerts review screen
+- `docs/screenshots/gallery.png` — gallery UI screen
+
+### Example image block
 
 ![Home Screen](docs/screenshots/home.png)
 
-### Alerts and Reports
-
 ![Alerts Screen](docs/screenshots/alerts.png)
-
-### Photo Gallery
 
 ![Gallery Screen](docs/screenshots/gallery.png)
 
-> Replace the example image paths above with your actual screenshot file paths once you upload them.
+> Tip: create the `docs/screenshots` folder and upload real screenshots there so GitHub displays your UI in the README.
 
-## How to Use
+## How to run the app
 
 1. Open `python/project.py`
-2. Install dependencies if needed
-3. Run the app with:
+2. Install required Python dependencies if needed
+3. Run:
    ```bash
    python python/project.py
    ```
-4. Use the app tabs to load media, scan for threats, review alerts, and add your own gallery photos.
 
-## Photo Gallery Instructions
+## Gallery instructions
 
-The app contains a **Gallery** tab where you can add your own UI screenshots:
+The app has a built-in Gallery tab for UI and photo placement.
 
-- Click `Add Photos` in the Gallery tab
-- Select screenshots or sample images from your system
-- The selected images will appear in the app gallery view
+- Open the Gallery tab in the app
+- Click `Add Photos`
+- Select one or more images
+- The selected photos appear in the gallery view
 
 ## Notes
 
-- `photo_gallery.json` is used by the app to remember the images you add to the gallery.
-- The app may download a Hugging Face model on first run and cache it locally.
+- The app may download the Hugging Face model the first time it runs and cache it locally.
+- `alerts_save.json` stores alert history locally.
+- `photo_gallery.json` stores the gallery image list when you add photos.
 
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+This project uses the MIT License. See `LICENSE` for full terms.
