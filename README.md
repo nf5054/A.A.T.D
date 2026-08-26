@@ -25,11 +25,11 @@ An advanced, real-time computer vision application designed to identify and trac
 ### 🚨 Alerts & Reports
 *(A comprehensive, searchable log of all detected threats. Operators can click on any entry to review the captured image, export the processed video, or generate a detailed incident report.)*
 
-![Alerts Page UI](alerts.png)
+![Alerts Page UI](العباقرة/alerts.png)
 
 ---
 
 ### ⚙️ Settings & Configuration
 *(The control panel for fine-tuning the AI's behavior. Users can adjust the minimum confidence threshold, add or remove items from the Threat and Ignore lists, and customize the interface theme.)*
 
-![Settings Page UI](settings.png)
+![Settings Page UI](العباقرة/settings.png)
