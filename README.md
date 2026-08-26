@@ -18,7 +18,7 @@ An advanced, real-time computer vision application designed to identify and trac
 ### 🏠 Home Page
 *(The main dashboard where operators can select the media source, initialize the AI model, and monitor the live detection feed.)*
 
-![Home Page UI](home.png)
+![Home Page UI](العباقرة/home.png)
 
 ---
 
