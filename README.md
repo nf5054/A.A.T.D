@@ -1,4 +1,4 @@
-# Autonomous Aerial Threat Detection System (AATD)
+# Advanced Aerial Threat Detection System (AATD)
 
 An advanced, real-time computer vision application designed to identify and track aerial threats, including drones, missiles, and unauthorized aircraft. Built with Python, PyTorch, and YOLO (You Only Look Once) architecture, AATD processes media feeds to deliver critical, instantaneous alerts.
 
